@@ -107,43 +107,43 @@ textarea {
    Parallax Scroll
    ========================================================================== */
 body, html {
-    height: 100%;
-    min-height: 100%;
-    background-color: #000000;
+	height: 100%;
+	min-height: 100%;
+	background-color: #000000;
 }
 body {
-    
+	
 }
 .no-js {
-    padding-top: 106px;
+	padding-top: 106px;
 }
 h2 {
-    margin-top: 0;
+	margin-top: 0;
 }
 .loading {
-    background: url('ico_loading.gif') no-repeat center center;
+	background: url('ico_loading.gif') no-repeat center center;
 }
 section {
     opacity: 0;
-    height: 360px;
+	height: 360px;
 }
 .loaded section,
 .no-js section {
-    opacity: 1;
-    -webkit-transition: opacity 300ms ease-out;
-    -moz-transition: opacity 300ms ease-out;
-    transition: opacity 300ms ease-out;
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
 }
 main {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 #preload {
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .bcg {
     background-size: cover;
@@ -180,38 +180,38 @@ main {
         width: 80%;
         color: #b2b2b2;
     }
-    .hsContent a {
-        color: #b2b2b2;
-        text-decoration: underline;
-    }
+	.hsContent a {
+		color: #b2b2b2;
+		text-decoration: underline;
+	}
 
-    /* Slide 1 */
-    #slide-1 .bcg {background-image:url('bcg_slide-1.jpg')}
-    #slide-1 .hsContent {}
+	/* Slide 1 */
+	#slide-1 .bcg {background-image:url('bcg_slide-1.jpg')}
+	#slide-1 .hsContent {}
 
-    /* Slide 2 */
-    #slide-2 .bcg {background-image:url('bcg_slide-2.jpg')}
-    #slide-2 .hsContent {}
-    #slide-2 h2 {}
+	/* Slide 2 */
+	#slide-2 .bcg {background-image:url('bcg_slide-2.jpg')}
+	#slide-2 .hsContent {}
+	#slide-2 h2 {}
 
-    /* Slide 3 */
-    #slide-3 .bcg {background-image:url('bcg_slide-3.jpg')}
-    #slide-3 .hsContent {}
-        #slide-3 h2 {
-            color: #f2ead6;
-            background-color: rgba(0,0,0,0.6);
-        }
+	/* Slide 3 */
+	#slide-3 .bcg {background-image:url('bcg_slide-3.jpg')}
+	#slide-3 .hsContent {}
+	    #slide-3 h2 {
+	        color: #f2ead6;
+	        background-color: rgba(0,0,0,0.6);
+	    }
 
-    /* Slide 4 */
-    #slide-4 .bcg {
-        background-image:url('bcg_slide-4.jpg');
-        background-position: center center;
-    }
-    #slide-4 .hsContent {}
-        #slide-4 h2 {
-            padding-left: 0;
-            padding-right: 0;
-        }
+	/* Slide 4 */
+	#slide-4 .bcg {
+	    background-image:url('bcg_slide-4.jpg');
+	    background-position: center center;
+	}
+	#slide-4 .hsContent {}
+	    #slide-4 h2 {
+	        padding-left: 0;
+	        padding-right: 0;
+	    }
 
 /* ==========================================================================
    Helper classes

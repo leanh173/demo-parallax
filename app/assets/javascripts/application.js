@@ -14,7 +14,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require js/vendor/jquery-1.9.1.min
 //= require js/vendor/modernizr-2.7.1.min
 //= require js/skrollr
 //= require js/imagesloaded
